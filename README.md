@@ -2,15 +2,13 @@
 
 作者 *对角巷魔法商店*
 
-淘宝[购买](https://item.taobao.com/item.htm?id=762339447892)套件or成品
-
-淘宝店铺搜索：[对角巷魔法商店](https://shop508227956.taobao.com/)
-
 [成品效果视频](https://www.bilibili.com/video/BV1YQ4y157gs)
 
 [立创开源平台](https://oshwhub.com/skylake/plasmatoroid-drive-circuit)
 
 [详细制作教程](./Documents/Tutorial.md)
+
+等离子环开源技术交流QQ群  736688139
 
 <img src=./imgs/cover.jpg width=100% />
 
