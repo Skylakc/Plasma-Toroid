@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: D:\Works\PlasmaToroid\Hardware\CoilStanding\CoilStanding.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=coilstanding.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_Rect_Holes|DrillFile=coilstanding-rectholes.txt|DrillLayers=gtl,gbl

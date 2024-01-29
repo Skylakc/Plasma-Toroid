@@ -1,0 +1,16 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: CoilStanding.PcbDoc   2024/1/29  12:51:17
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : CoilStanding.TXT
+ASCII RectHoles File : CoilStanding-RectHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      1.8mm (71mil)                                             Rectangle         12        PTH        568.30mm (22.37inch)
+T2      4.2mm (165mil)                                            Round             4         PTH        279.97mm (11.02inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              16
+
+Total Processing Time (hh:mm:ss) : 00:00:00
