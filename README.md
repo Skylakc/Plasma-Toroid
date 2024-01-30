@@ -8,6 +8,8 @@
 
 [详细制作教程](./Documents/Tutorial.md)
 
+[调试过程注意事项](./Documents/Notes.md)
+
 等离子环开源技术交流QQ群  736688139
 
 <img src=./imgs/cover.jpg width=100% />
