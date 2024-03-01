@@ -84,70 +84,71 @@
 - 斜口钳 
 - 内六方螺丝刀套装
 
-<img src=../imgs/tools.jpg width=80% />
+<img src=../imgs/tools.jpg width=40% />
 
 ### 步骤
 - 准备好五个线圈支架，插在底座上，烧热烙铁，用焊锡焊接固定。尽可能保证支架和底板处于垂直状态。（五片线圈支架要用一些力才能塞进去）
-<img src=../imgs/imgs_24_3_1/Coil0.jpg width=50% />
-<img src=../imgs/imgs_24_3_1/Coil1.jpg width=50% />
+<img src=../imgs/imgs_24_3_1/Coil0.jpg width=40% />
+<img src=../imgs/imgs_24_3_1/Coil1.jpg width=40% />
 
 - 把漆包线按照线圈架的直径弯曲，不要拉直漆包线，保持漆包线弯曲有助于穿线
-<img src=../imgs/imgs_24_3_1/Coil5.jpg width=50% />
+<img src=../imgs/imgs_24_3_1/Coil5.jpg width=40% />
 
-- 将漆包线按照小孔从上到下穿入，共三圈。穿好后另一头用同样方式拉出。孔位较小，可以通过推拉的方式穿入。
+- 将漆包线按照小孔从上到下穿入，共三圈。孔位较小，可以通过推拉的方式穿入。
 
-<img src=../imgs/imgs_24_3_1/Coil2.jpg width=50% />
-<img src=../imgs/imgs_24_3_1/Coil3.jpg width=50% />
-<img src=../imgs/imgs_24_3_1/Coil4.jpg width=50% />
+<img src=../imgs/imgs_24_3_1/Coil2.jpg width=40% />
+<img src=../imgs/imgs_24_3_1/Coil3.jpg width=40% />
+<img src=../imgs/imgs_24_3_1/Coil4.jpg width=40% />
 
 - 制作带限流保护的电源（已有可调电源的话可以跳过此步），准备好24V电源和XL4015限流模块，将电源线剪开，把模块串联在中间，将XL4015模块调输出电压的电位器顺时针拧到头，将限流电位器拧到3.5A的位置，确定该限流电位器位置的方法是:将万用表打到10A电流档，两个表笔对到输出上（此时相当于短路了输出），万用表显示的数值就是限流模块的限流值。注意，使用没有限流的电源会十分容易烧毁mos管，如果已经有可调电源则可以跳过这一步。下图中模块左边的电位器是调节输出电压，右边的电位器是调节限流。
 - 如果您是使用可调电源，请使用限流模式（CC）,设置输出电压24V，限流3.5A。
 
 <img src=../imgs/imgs_24_3_1/XL4015.jpg width=60% />
-<img src=../imgs/imgs_24_3_1/power_source.jpg width=60% />
+<img src=../imgs/imgs_24_3_1/power_source.jpg width=32% />
 
 - 将元件按照型号分别插入电路板 (先不要安装MOS管)，为了方便焊接，可以将管脚进行简单折弯固定。注意，风扇的接线座应该安装在PCB背面。
+- 建议先焊接矮的元件，再焊接高的元件，例如先焊接电阻，稳压管，接线座等，最后焊接电容，开关。
   
   > 电阻分辨方式
   >  - 大一点的是1k电阻
   >	 - 带有绿色和蓝色环的是5.6k电阻
   >	 - 带有红色和紫色环的是2.7k电阻
 
-<img src=../imgs/imgs_24_3_1/Solder0.jpg width=60% />
+<img src=../imgs/imgs_24_3_1/Solder0.jpg width=40% />
 
 - 焊接时，**注意烙铁高温，小心烫伤。**
 
 - 将所有元件焊接好后，剪去管脚。请尽量保证焊点饱满圆润，去除管脚时请从根部开始。
 
-<img src=../imgs/imgs_24_3_1/Solder1.jpg width=60% />
+<img src=../imgs/imgs_24_3_1/Solder1.jpg width=40% />
 
 - 将散热片四周螺丝孔内拧入铜柱。
 
-<img src=../imgs/imgs_24_3_1/heatsink0.jpg width=60% />
+<img src=../imgs/imgs_24_3_1/heatsink0.jpg width=40% />
 
 - 安装MOSFET。将MOS管有字的一面**向上**，将另一面垫上硅胶垫后用螺丝固定在散热片上，管脚**对着下方**，此时管脚左中右分别为G D S极。
 
-<img src=../imgs/imgs_24_3_1/heatsink1.jpg width=60% />
+<img src=../imgs/imgs_24_3_1/heatsink1.jpg width=40% />
 
 - 将管脚弯曲后插入PCB，**先将PCB和散热片孔位对准，确保能拧上四个螺丝**，随后再焊接MOS管
 
-<img src=../imgs/imgs_24_3_1/assemble0.jpg width=60% />
+<img src=../imgs/imgs_24_3_1/assemble0.jpg width=40% />
 
 - 固定风扇,所有层的连接关系如下图所示，风扇的风冲着散热片吹（朝上吹）。
 
-<img src=../imgs/imgs_24_3_1/fan0.jpg width=60% />
-<img src=../imgs/imgs_24_3_1/fan1.jpg width=60% />
-<img src=../imgs/imgs_24_3_1/fan2.jpg width=60% />
+<img src=../imgs/imgs_24_3_1/fan0.jpg width=40% />
+<img src=../imgs/imgs_24_3_1/fan1.jpg width=40% />
+<img src=../imgs/imgs_24_3_1/fan2.jpg width=40% />
 
 - 将线圈支架用螺丝安装到顶部，两根线对着绿色的线圈接线座
 
-<img src=../imgs/imgs_24_3_1/assemble1.jpg width=60% />
+<img src=../imgs/imgs_24_3_1/assemble1.jpg width=40% />
 
 - 适当地剪短漆包线，使其能插入接线座即可。
 - 用小刀刮开线头漆皮，露出漆包线内部的铜芯。
 - **注意：一定要把线头漆皮刮干净，否则可能接触不良无法工作！**
 
-<img src=../imgs/imgs_24_3_1/Coil6.jpg width=50% />
+<img src=../imgs/imgs_24_3_1/Coil6.jpg width=40% />
 
 - 将线圈的两根线插入绿色接线座的1,3引脚（中间的孔不插），将风扇电源线插入PCB背面的风扇接口。
 
@@ -166,19 +167,19 @@
 - 确保阅读了安全说明后，插上电源，打开开关，此时应该风扇会转。
 
 - 向顺时针拧电位器，大概拧到行程80%的位置时，电路就会开始工作，此时使用点火器对准瓶子点一下即可出环。如果点火器点不出环，可以把电位器再顺时针拧大一些再点。
-<img src=../imgs/imgs_24_3_1/excite.jpg width=60% />
-<img src=../imgs/imgs_24_3_1/ring.jpg width=60% />
+<img src=../imgs/imgs_24_3_1/excite.jpg width=40% />
+<img src=../imgs/imgs_24_3_1/ring.jpg width=40% />
 
 - 有时候，您的瓶子会泛白光而不出环（如下图所示），调整瓶子位置后重新点火几次一般就好了。
-<img src=../imgs/imgs_24_3_1/white.jpg width=60% />
+<img src=../imgs/imgs_24_3_1/white.jpg width=40% />
 
 - 出环后，微微拧动电位器环的形态会发生一些变化，如果环消失了，重新点火即可再次出环。
 
-<img src=../imgs/imgs_24_3_1/ring1.jpg width=60% />
+<img src=../imgs/imgs_24_3_1/ring1.jpg width=40% />
 
 ### 参考电路图
-
-<img src=../imgs/imgs_24_3_1/sch_new.jpg width=80% />
+由于此项目的硬件还在不断更新，电路图仅供参考，实际以PCB为准
+<img src=../imgs/imgs_24_3_1/sch.jpg width=80% />
 
 
 ### FAQ
