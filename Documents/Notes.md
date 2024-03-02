@@ -1,6 +1,6 @@
 # 调试过程的注意事项
 
-作者 对角巷魔法商店
+作者 *对角巷魔法商店*
 
 [成品效果视频](https://www.bilibili.com/video/BV1YQ4y157gs)
 
