@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: D:\Works\PlasmaToroidMD\等离子环驱动\等离子环驱动.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=等离子环驱动-roundholes.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=等离子环驱动-slotholes.txt|DrillLayers=gtl,gbl

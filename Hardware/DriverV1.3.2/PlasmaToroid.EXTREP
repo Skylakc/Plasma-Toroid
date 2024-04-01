@@ -1,5 +1,5 @@
 ------------------------------------------------------------------------------------------
-Gerber File Extension Report For: Copy of 等离子环驱动.GBR   2024/1/17  16:44:51
+Gerber File Extension Report For: 等离子环驱动.GBR   2024/4/1  17:32:58
 ------------------------------------------------------------------------------------------
 
 
@@ -14,7 +14,8 @@ Layer Extension     Layer Description
 .GBS                Bottom Solder                           
 .GBP                Bottom Paste                            
 .GBO                Bottom Overlay                          
-.GM1                Mechanical 1                            
+.GKO                Keep-Out Layer                          
 .GD1                Drill Drawing                           
 .GG1                Drill Guide                             
+.GM                 Profile                                 
 ------------------------------------------------------------------------------------------
