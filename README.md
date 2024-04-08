@@ -2,7 +2,8 @@
 
 作者 *对角巷魔法商店*
 
-[成品效果视频](https://www.bilibili.com/video/BV1YQ4y157gs)
+[成品效果视频1](https://www.bilibili.com/video/BV1Lm411z7tf)
+[成品效果视频2](https://www.bilibili.com/video/BV12f421o7rf)
 
 [立创开源平台](https://oshwhub.com/skylake/plasmatoroid-drive-circuit)
 
