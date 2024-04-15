@@ -47,6 +47,7 @@
 
 <img src=../imgs/imgs_24_3_1/all_components.jpg width=80% />
 
+<font color="red">注意：四月份后推出了黑色PCB的新版本，黑色PCB和绿色略有区别，这些区别以红字标注在本文中</font>
 
 - 充有氙气的玻璃瓶80mm(在淘宝搜索等离子环可找到,更大的玻璃球无法安装到本项目的支架中)
 - 1.2mm 漆包线 —— 绕制线圈
@@ -58,8 +59,8 @@
 - MOS管散热硅胶垫
 - 电位器 1k
 - 电阻1k * 2
-- 电阻2.7k, 5.6k
-- 瓷片电容 30pf * 4
+- 电阻2.7k, 5.6k (<font color="red">新版被换为了1.8k和3k，分别对应2.7k和5.6k的位置</font>)
+- 瓷片电容 30pf * 4 (<font color="red">新版被换为了两个220pf的贴片电容</font>)
 - 贴片电容 4.7nF * 2
 - TVS 15V P6KE15CA
 - 稳压二极管 9.1V
@@ -72,6 +73,7 @@
 - 打火机中拆出来的压电陶瓷 (用于初始点亮)
 - XL4015限流模块 （有可调电源可以不准备此模块）
 - 24v电源适配器（4A以上，或者有可调电源也可）
+
 
 
 ## 制作教程
@@ -96,6 +98,7 @@
 <img src=../imgs/imgs_24_3_1/Coil5.jpg width=40% />
 
 - 将漆包线按照小孔从上到下穿入，共三圈。孔位较小，可以通过推拉的方式穿入。
+- <font color="red">注意，新版的黑色PCB请将线圈绕四圈</font>
 
 <img src=../imgs/imgs_24_3_1/Coil2.jpg width=30% />
 <img src=../imgs/imgs_24_3_1/Coil3.jpg width=30% />
@@ -114,8 +117,12 @@
   >  - 大一点的是1k电阻
   >	 - 带有绿色和蓝色环的是5.6k电阻
   >	 - 带有红色和紫色环的是2.7k电阻
+  >  -<font color="red">新款的PCB用1.8k和3k电阻代替了2.7k和5.6k</font>
+
+    >  -<font color="red">新款的PCB有两种贴片电容，厚一些的是220pf，薄一些的是4.7nf的，薄一些的安装在C9和C10，另外，新款的在线圈支架上需要焊接一个led和一个1k电阻</font>
 
 <img src=../imgs/imgs_24_3_1/Solder0.jpg width=40% />
+<img src=../imgs/imgs_24_3_1/black.jpg width=40% />
 
 - 焊接时，**注意烙铁高温，小心烫伤。**
 
@@ -123,7 +130,7 @@
 
 <img src=../imgs/imgs_24_3_1/Solder1.jpg width=40% />
 
-- 将散热片四周螺丝孔内拧入铜柱。
+- 将散热片四周螺丝孔内拧入铜柱。<font color="red">新款改用了6mm高的尼龙柱</font>
 
 <img src=../imgs/imgs_24_3_1/heatsink0.jpg width=40% />
 
