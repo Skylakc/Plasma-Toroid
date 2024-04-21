@@ -6,6 +6,7 @@
 本文中所使用的零件均可在淘宝店铺***对角巷魔法商店***找到，全套电路零件只要99元
 
 [成品效果视频1](https://www.bilibili.com/video/BV1Lm411z7tf)
+
 [成品效果视频2](https://www.bilibili.com/video/BV12f421o7rf)
 
 [立创开源平台](https://oshwhub.com/skylake/plasmatoroid-drive-circuit)
@@ -13,7 +14,7 @@
 等离子环开源技术交流QQ群  736688139
 
 
-<img src=../imgs/cover.jpg width=100% />（此图更新为8cm电路出环）
+<img src=../imgs/imgs_24_4_13/ring.png width=100% />
 
 ## 版权声明©
 
@@ -45,7 +46,7 @@
 
 ## 准备材料
 
-<img src=../imgs/imgs_24_3_1/all_components.jpg width=80% /> （此图需要更新为8cm的元件）
+<img src=../imgs/imgs_24_4_13/Fullcomponents.jpg width=80% /> 
 
 
 - 充有氙气的玻璃瓶80mm(在淘宝**对角巷魔法商店**可找到,更大的玻璃球无法安装到本项目的支架中)
@@ -91,17 +92,21 @@
 
 ### 步骤
 - 准备好五个线圈支架，插在底座上，烧热烙铁，用焊锡焊接固定。尽可能保证支架和底板处于垂直状态。（五片线圈支架要用一些力才能塞进去）
-<img src=../imgs/imgs_24_3_1/Coil0.jpg width=45% />（此图更新为新的8cm支架）
-<img src=../imgs/imgs_24_3_1/Coil1.jpg width=45% />（此图更新为新的8cm支架）
+<img src=../imgs/imgs_24_4_13/Coil1.jpg width=45% />
+
+<img src=../imgs/imgs_24_4_13/Coil2.jpg width=45% />
 
 - 把漆包线按照线圈架的直径弯曲，不要拉直漆包线，保持漆包线弯曲有助于穿线
-<img src=../imgs/imgs_24_3_1/Coil5.jpg width=40% />（此图更新为新的8cm支架）
+<img src=../imgs/imgs_24_4_13/Coil3.jpg width=40% />
 
 - 将漆包线按照小孔从上到下穿入，共三圈。孔位较小，可以通过推拉的方式穿入。
 
-<img src=../imgs/imgs_24_3_1/Coil2.jpg width=30% />（此图更新为新的8cm支架）
-<img src=../imgs/imgs_24_3_1/Coil3.jpg width=30% />（此图更新为新的8cm支架）
-<img src=../imgs/imgs_24_3_1/Coil4.jpg width=30% />（此图更新为新的8cm支架）
+<img src=../imgs/imgs_24_4_13/Coil4.jpg width=30% />
+
+<img src=../imgs/imgs_24_4_13/Coil5.jpg width=30% />
+
+<img src=../imgs/imgs_24_4_13/Coil6.jpg width=30% />
+
 
 - 制作带限流保护的电源（已有可调电源的话可以跳过此步），准备好24V电源和XL4015限流模块，将电源线剪开，把模块串联在中间，将XL4015模块调输出电压的电位器顺时针拧到头(拧到头会有咔哒响声)，将限流电位器拧到3.5A的位置，确定该限流电位器位置的方法是:将万用表打到10A电流档，表笔插入10A的孔位，两个表笔对到输出上（此时相当于短路了输出，可能有电火花但没事），万用表显示的数值就是限流模块的限流值。注意，使用没有限流的电源会十分容易烧毁mos管，一定要串联XL4015模块再接电。如果已经有可调电源则可以跳过这一步。下图中模块左边的电位器是调节输出电压，右边的电位器是调节限流，顺时针拧增大。
 - 如果您是使用可调电源，请使用限流模式（CC）,设置输出电压24V，限流3.5A。
@@ -121,15 +126,15 @@
 | 稳压二极管       | D2              |
 | TVS（黑色）     | D1              |
 | 绿色接线座       | P1              |
-| 白色接线座       | q3（安装在背面）|
+| 白色接线座       | Q3（安装在背面）|
 | 220uf电解电容    | C5              |
 | 100pf电容 * 4   | C1, C2, C3, C4  |
 | 4.7nf电容 * 2   | C6, C7          |
 | 10uH电感        | L1              |
 | IRFP260         | Q1 (这个先不安装) |
 | 开关            |                |
-| 黑色电源插座     |                |
-| 绿色电位器       |                |
+| DC5525黑色电源插座     |                |
+| B1K单联电位器       |                |
 
 - 建议先焊接矮的元件，再焊接高的元件，例如先焊接贴片电容，电阻，稳压管，接线座等，最后焊接电解电容，开关。如果没有焊接经验，务必先在B站搜索焊接教程学习一下。经过历史统计，制作完后出现问题的人中有60%是因为没有掌握正确的焊接方法导致了元件和PCB接触不良。
   
@@ -139,44 +144,59 @@
   >	 - 3k电阻上有橙色线
   >	 实在分辨不明白就用万用表量吧^_^
 
+  > 电容分辨方式
+  >  - 4.7nF电容相对薄一些
+  >	 - 220pF/100pF电容相对厚一些
+  >  - 谐振电容可以选择220pF两个或100pF四个
+
   > 部分朋友可能不会焊接贴片元件，可以在B站搜索贴片元件焊接教程学习下。简单说来，先焊上一边固定住贴片元件，再焊接另一边。
   >【两脚的贴片元件如何快速焊接？有哪些注意事项？几分钟就掌握技巧-哔哩哔哩】 https://b23.tv/XZ3q8Bh
 
-<img src=../imgs/imgs_24_3_1/Solder0.jpg width=40% />（此图更新为新的8cm电路）
+<img src=../imgs/imgs_24_4_13/Assemble5.jpg width=40% />
 
 - 焊接时，**注意烙铁高温，小心烫伤。**
 
 - 将所有元件焊接好后，剪去管脚。请尽量保证焊点饱满圆润，去除管脚时请从根部开始。
 
-<img src=../imgs/imgs_24_3_1/Solder1.jpg width=40% />（此图更新为新的8cm电路）
+<img src=../imgs/imgs_24_3_1/Solder1.jpg width=40% />
 
 - 将散热片四周螺丝孔内拧入6mm尼龙柱。
 
-<img src=../imgs/imgs_24_3_1/heatsink0.jpg width=40% />（此图更新为使用尼龙柱）
+<img src=../imgs/imgs_24_4_13/heatsink0.jpg width=40% />
 
 - 安装MOSFET。将MOS管有字的一面**向上**，将另一面垫上硅胶垫后用螺丝固定在散热片上，管脚**对着下方**，此时管脚左中右分别为G D S极。
 
-<img src=../imgs/imgs_24_3_1/heatsink1.jpg width=40% />（此图更新为使用尼龙柱，mos也换成LYD）
+<img src=../imgs/imgs_24_4_13/heatsink1.jpg width=40% />
+
+<img src=../imgs/imgs_24_4_13/heatsink2.jpg width=40% />
 
 - 将管脚弯曲后插入PCB，**先将PCB和散热片孔位对准，确保能拧上四个螺丝**，随后再焊接MOS管
 
-<img src=../imgs/imgs_24_3_1/assemble0.jpg width=40% />（此图更新为新的8cm电路）
+<img src=../imgs/imgs_24_4_13/assemble6.jpg width=40% />
 
 - 固定风扇,所有层的连接关系如下图所示，风扇的风冲着散热片吹（朝上吹）。
 
-<img src=../imgs/imgs_24_3_1/fan0.jpg width=30% />（此图更新为新的8cm风扇）
-<img src=../imgs/imgs_24_3_1/fan1.jpg width=30% />（此图更新为新的8cm风扇）
-<img src=../imgs/imgs_24_3_1/fan2.jpg width=30% />（此图更新为新的8cm风扇）
+<img src=../imgs/imgs_24_4_13/fan1.jpg width=30% />
+
+<img src=../imgs/imgs_24_4_13/fan2.jpg width=30% />
+
+<img src=../imgs/imgs_24_4_13/fan3.jpg width=30% />（
+
 
 - 将线圈支架用螺丝安装到顶部，两根线对着绿色的线圈接线座
 
-<img src=../imgs/imgs_24_3_1/assemble1.jpg width=40% />（此图更新为新的8cm电路）
+<img src=../imgs/imgs_24_4_13/Assemble2.jpg width=40% />
+
+<img src=../imgs/imgs_24_4_13/assemble3.jpg width=40% />
+
 
 - 适当地剪短漆包线，使其能插入接线座即可。
 - 用小刀刮开线头漆皮，露出漆包线内部的铜芯。
 - **注意：一定要把线头漆皮刮干净，否则可能接触不良无法工作！**
 
-<img src=../imgs/imgs_24_3_1/Coil6.jpg width=40% />（此图更新为新的8cm电路）
+<img src=../imgs/imgs_24_4_13/Assemble1.jpg width=40% />
+
+
 
 - 将线圈的两根线插入绿色接线座的1,3引脚（中间的孔不插），将风扇电源线插入PCB背面的风扇接口。
 
@@ -199,15 +219,18 @@
 - 确保阅读了安全说明后，插上电源，打开开关，此时应该风扇会转。
 
 - 向顺时针拧电位器，大概拧到一半位置时，电路就会开始工作。电路开始工作后，线圈旁边的LED会亮起。此时使用点火器对准瓶子点一下即可出环。如果点火器点不出环，可以把电位器再顺时针拧大一些再点。
-<img src=../imgs/imgs_24_3_1/excite.jpg width=40% />（此图更新为新的8cm电路）
-<img src=../imgs/imgs_24_3_1/ring.jpg width=40% />（此图更新为新的8cm电路）
+  
+<img src=../imgs/imgs_24_3_1/excite.jpg width=40% />
+
+<img src=../imgs/imgs_24_3_1/ring.jpg width=40% />
 
 - 有时候，您的瓶子会泛白光而不出环（如下图所示），调整瓶子位置后重新点火几次一般就好了。
-<img src=../imgs/imgs_24_3_1/white.jpg width=40% />（此图更新为新的8cm电路）
+<img src=../imgs/imgs_24_3_1/white.jpg width=40% />
+
 
 - 出环后，微微拧动电位器环的形态会发生一些变化，如果环消失了，重新点火即可再次出环。
 
-<img src=../imgs/imgs_24_3_1/ring1.jpg width=40% />（此图更新为新的8cm电路）
+<img src=../imgs/imgs_24_4_13/ring.png width=80% />
 
 ### 参考电路图
 由于此项目的硬件还在不断更新，电路图仅供参考，实际以PCB为准
