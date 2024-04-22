@@ -3,6 +3,7 @@
 此文档更新于2024年4月13日
 
 作者 *对角巷魔法商店*
+
 本文中所使用的零件均可在淘宝店铺***对角巷魔法商店***找到，全套电路零件只要99元
 
 [成品效果视频1](https://www.bilibili.com/video/BV1Lm411z7tf)
@@ -14,7 +15,7 @@
 等离子环开源技术交流QQ群  736688139
 
 
-<img src=../imgs/imgs_24_4_13/ring.png width=100% />
+<img src=../imgs/imgs_24_4_13/ring.png width=80% />
 
 ## 版权声明©
 
@@ -46,7 +47,7 @@
 
 ## 准备材料
 
-<img src=../imgs/imgs_24_4_13/Fullcomponents.jpg width=80% /> 
+<img src=../imgs/imgs_24_4_13/Fullcomponents.jpg width=88% /> 
 
 
 - 充有氙气的玻璃瓶80mm(在淘宝**对角巷魔法商店**可找到,更大的玻璃球无法安装到本项目的支架中)
@@ -92,9 +93,11 @@
 
 ### 步骤
 - 准备好五个线圈支架，插在底座上，烧热烙铁，用焊锡焊接固定。尽可能保证支架和底板处于垂直状态。（五片线圈支架要用一些力才能塞进去）
+
 <img src=../imgs/imgs_24_4_13/Coil1.jpg width=45% /> <img src=../imgs/imgs_24_4_13/Coil2.jpg width=45% />
 
 - 把漆包线按照线圈架的直径弯曲，不要拉直漆包线，保持漆包线弯曲有助于穿线
+
 <img src=../imgs/imgs_24_4_13/Coil3.jpg width=80% />
 
 - 将漆包线按照小孔从上到下穿入，共三圈。孔位较小，可以通过推拉的方式穿入。
