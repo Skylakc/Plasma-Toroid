@@ -15,7 +15,7 @@
 等离子环开源技术交流QQ群  736688139
 
 
-<img src=../imgs/imgs_24_4_13/ring.png width=80% />
+<img src=../imgs/imgs_24_4_13/Xe2.jpg width=80% />
 
 ## 版权声明©
 
