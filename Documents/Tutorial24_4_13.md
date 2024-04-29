@@ -151,13 +151,14 @@
   > 部分朋友可能不会焊接贴片元件，可以在B站搜索贴片元件焊接教程学习下。简单说来，先焊上一边固定住贴片元件，再焊接另一边。
   >【两脚的贴片元件如何快速焊接？有哪些注意事项？几分钟就掌握技巧-哔哩哔哩】 https://b23.tv/XZ3q8Bh
 
-<img src=../imgs/imgs_24_4_13/compress/Assemble5.jpg width=70% />
+  > 务必注意电解电容的方向，焊反可能会剧烈发热甚至爆炸。
+<img src=../imgs/imgs_24_4_13/compress/assemble_front.jpg width=70% />
 
 - 焊接时，**注意烙铁高温，小心烫伤。**
 
 - 将所有元件焊接好后，剪去管脚。请尽量保证焊点饱满圆润，去除管脚时请从根部开始。
 
-<img src=../imgs/imgs_24_3_1/Solder1.jpg width=70% />
+<img src=../imgs/imgs_24_4_13/assemble_back.jpg width=70% />
 
 - 将散热片四周螺丝孔内拧入6mm铜柱(或者6mm尼龙柱)。
 
