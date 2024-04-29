@@ -15,7 +15,7 @@
 等离子环开源技术交流QQ群  736688139
 
 
-<img src=../imgs/imgs_24_4_13/ring.png width=80% />
+<img src=../imgs/imgs_24_4_13/compress/ring.png width=80% />
 
 ## 版权声明©
 
@@ -47,7 +47,7 @@
 
 ## 准备材料
 
-<img src=../imgs/imgs_24_4_13/Fullcomponents.jpg width=88% /> 
+<img src=../imgs/imgs_24_4_13/compress/Fullcomponents.jpg width=88% /> 
 
 
 - 充有氙气的玻璃瓶80mm(在淘宝**对角巷魔法商店**可找到,更大的玻璃球无法安装到本项目的支架中)
@@ -94,17 +94,17 @@
 ### 步骤
 - 准备好五个线圈支架，插在底座上，烧热烙铁，用焊锡焊接固定。尽可能保证支架和底板处于垂直状态。（五片线圈支架要用一些力才能塞进去）
 
-<img src=../imgs/imgs_24_4_13/Coil1.jpg width=45% /> <img src=../imgs/imgs_24_4_13/Coil2.jpg width=45% />
+<img src=../imgs/imgs_24_4_13/compress/Coil1.jpg width=45% /> <img src=../imgs/imgs_24_4_13/compress/Coil2.jpg width=45% />
 
 - 把漆包线按照线圈架的直径弯曲，不要拉直漆包线，保持漆包线弯曲有助于穿线
 
-<img src=../imgs/imgs_24_4_13/Coil3.jpg width=80% />
+<img src=../imgs/imgs_24_4_13/compress/Coil3.jpg width=80% />
 
 - 将漆包线按照小孔从上到下穿入，共三圈。孔位较小，可以通过推拉的方式穿入。
 
-<img src=../imgs/imgs_24_4_13/Coil4.jpg width=32% />
-<img src=../imgs/imgs_24_4_13/Coil5.jpg width=32% />
-<img src=../imgs/imgs_24_4_13/Coil6.jpg width=32% />
+<img src=../imgs/imgs_24_4_13/compress/Coil4.jpg width=32% />
+<img src=../imgs/imgs_24_4_13/compress/Coil5.jpg width=32% />
+<img src=../imgs/imgs_24_4_13/compress/Coil6.jpg width=32% />
 
 
 - 制作带限流保护的电源（已有可调电源的话可以跳过此步），准备好24V电源和XL4015限流模块，将电源线剪开，把模块串联在中间，将XL4015模块调输出电压的电位器顺时针拧到头(拧到头会有咔哒响声)，将限流电位器拧到3.5A的位置，确定该限流电位器位置的方法是:将万用表打到10A电流档，表笔插入10A的孔位，两个表笔对到输出上（此时相当于短路了输出，可能有电火花但没事），万用表显示的数值就是限流模块的限流值。注意，使用没有限流的电源会十分容易烧毁mos管，一定要串联XL4015模块再接电。如果已经有可调电源则可以跳过这一步。下图中模块左边的电位器是调节输出电压，右边的电位器是调节限流，顺时针拧增大。
@@ -151,7 +151,7 @@
   > 部分朋友可能不会焊接贴片元件，可以在B站搜索贴片元件焊接教程学习下。简单说来，先焊上一边固定住贴片元件，再焊接另一边。
   >【两脚的贴片元件如何快速焊接？有哪些注意事项？几分钟就掌握技巧-哔哩哔哩】 https://b23.tv/XZ3q8Bh
 
-<img src=../imgs/imgs_24_4_13/Assemble5.jpg width=70% />
+<img src=../imgs/imgs_24_4_13/compress/Assemble5.jpg width=70% />
 
 - 焊接时，**注意烙铁高温，小心烫伤。**
 
@@ -161,38 +161,38 @@
 
 - 将散热片四周螺丝孔内拧入6mm铜柱(或者6mm尼龙柱)。
 
-<img src=../imgs/imgs_24_4_13/heatsink0.jpg width=60% />
+<img src=../imgs/imgs_24_4_13/compress/heatsink0.jpg width=60% />
 
 - 安装MOSFET。将MOS管有字的一面**向上**，将另一面垫上硅胶垫后用螺丝固定在散热片上，管脚**对着下方**，此时管脚左中右分别为G D S极。
 
-<img src=../imgs/imgs_24_4_13/heatsink1.jpg width=40% />
+<img src=../imgs/imgs_24_4_13/compress/heatsink1.jpg width=40% />
 
-<img src=../imgs/imgs_24_4_13/heatsink2.jpg width=45% />
+<img src=../imgs/imgs_24_4_13/compress/heatsink2.jpg width=45% />
 
 - 将管脚弯曲后插入PCB，**先将PCB和散热片孔位对准，确保能拧上四个螺丝**，随后再焊接MOS管
 
-<img src=../imgs/imgs_24_4_13/assemble6.jpg width=60% />
+<img src=../imgs/imgs_24_4_13/compress/assemble6.jpg width=60% />
 
 - 固定风扇,所有层的连接关系如下图所示，风扇的风冲着散热片吹（朝上吹）。
 
-<img src=../imgs/imgs_24_4_13/fan1.jpg width=30% />
+<img src=../imgs/imgs_24_4_13/compress/fan1.jpg width=30% />
 
-<img src=../imgs/imgs_24_4_13/fan2.jpg width=30% />
+<img src=../imgs/imgs_24_4_13/compress/fan2.jpg width=30% />
 
-<img src=../imgs/imgs_24_4_13/fan3.jpg width=30% />
+<img src=../imgs/imgs_24_4_13/compress/fan3.jpg width=30% />
 
 
 - 将线圈支架用螺丝安装到顶部，两根线对着绿色的线圈接线座
 
-<img src=../imgs/imgs_24_4_13/assemble3.jpg width=40% />
-<img src=../imgs/imgs_24_4_13/Assemble2.jpg width=48% />
+<img src=../imgs/imgs_24_4_13/compress/assemble3.jpg width=40% />
+<img src=../imgs/imgs_24_4_13/compress/Assemble2.jpg width=48% />
 
 
 - 适当地剪短漆包线，使其能插入接线座即可。
 - 用小刀刮开线头漆皮，露出漆包线内部的铜芯。
 - **注意：一定要把线头漆皮刮干净，否则可能接触不良无法工作！**
 
-<img src=../imgs/imgs_24_4_13/Assemble1.jpg width=60% />
+<img src=../imgs/imgs_24_4_13/compress/Assemble1.jpg width=60% />
 
 
 
@@ -228,7 +228,7 @@
 
 - 出环后，微微拧动电位器环的形态会发生一些变化，如果环消失了，重新点火即可再次出环。
 
-<img src=../imgs/imgs_24_4_13/ring.png width=80% />
+<img src=../imgs/imgs_24_4_13/compress/ring.png width=80% />
 
 ### 参考电路图
 由于此项目的硬件还在不断更新，电路图仅供参考，实际以PCB为准
