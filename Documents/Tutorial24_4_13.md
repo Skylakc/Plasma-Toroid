@@ -15,7 +15,7 @@
 等离子环开源技术交流QQ群  736688139
 
 
-<img src=../imgs/imgs_24_4_13/Xe2.jpg width=80% />
+<img src=../imgs/imgs_24_4_13/Xe2.jpg width=74% />
 
 ## 版权声明©
 
@@ -120,8 +120,8 @@
 |----------------|----------------|
 | 1k电阻 * 3      | R1, R4, 顶面PCB |
 | 发光二极管       | 顶面PCB         |
-| 4.3k电阻        | R2              |
-| 2.7k电阻        | R3              |
+| 3k电阻        | R2              |
+| 1.8k电阻        | R3              |
 | 稳压二极管       | D2              |
 | TVS（黑色）     | D1              |
 | 绿色接线座       | P1              |
@@ -152,7 +152,7 @@
   >【两脚的贴片元件如何快速焊接？有哪些注意事项？几分钟就掌握技巧-哔哩哔哩】 https://b23.tv/XZ3q8Bh
 
   > 务必注意电解电容的方向，焊反可能会剧烈发热甚至爆炸。
-<img src=../imgs/imgs_24_4_13/compress/assemble_front.jpg width=70% />
+<img src=../imgs/imgs_24_4_13/assemble_front.jpg width=70% />
 
 - 焊接时，**注意烙铁高温，小心烫伤。**
 
@@ -172,7 +172,7 @@
 
 - 将管脚弯曲后插入PCB，**先将PCB和散热片孔位对准，确保能拧上四个螺丝**，随后再焊接MOS管
 
-<img src=../imgs/imgs_24_4_13/compress/assemble6.jpg width=60% />
+<img src=../imgs/imgs_24_4_13/assemble_new.jpg width=60% />
 
 - 固定风扇,所有层的连接关系如下图所示，风扇的风冲着散热片吹（朝上吹）。
 
@@ -229,7 +229,7 @@
 
 - 出环后，微微拧动电位器环的形态会发生一些变化，如果环消失了，重新点火即可再次出环。
 
-<img src=../imgs/imgs_24_4_13/compress/ring.png width=80% />
+<img src=../imgs/imgs_24_4_13/Xe2.jpg width=70% />
 
 ### 参考电路图
 由于此项目的硬件还在不断更新，电路图仅供参考，实际以PCB为准
