@@ -1,200 +1,246 @@
-# Plasma Toroid Making Tutorial
+# Plasma Toroid DIY Instructions
 
-Last updated on March 1st, 2024  
+This document was updated on July 22, 2024.
 
 Author: *Diagon Alley Magic Shop*
-All parts used in this tutorial can be found at online shop ***Diagon Alley Magic Shop***
 
-[Demonstration video](https://www.bilibili.com/video/BV1YQ4y157gs)
+All components used in this document can be found in the Aliexpress store ***Diagon Alley Magic Shop***. 
 
-[JLC open source platform](https://oshwhub.com/skylake/plasmatoroid-drive-circuit) 
+[Finished product demo video 1](https://www.bilibili.com/video/BV1Lm411z7tf)
 
-QQ Group for plasma toroid open source community: 736688139
+[Finished product demo video 2](https://www.bilibili.com/video/BV12f421o7rf) 
 
+[LCEDA Open Source Platform](https://oshwhub.com/skylake/plasmatoroid-drive-circuit)
 
-<img src=../imgs/cover.jpg width=100% />
+Plasma toroid open source technology QQ group: 736688139
 
-## Copyright Notice ©
+<img src=../imgs/imgs_24_7_22\cover.jpg width=74% />
 
-This tutorial is for personal learning and making plasma toroids only. No one is allowed to modify, republish or distribute the content without the author's consent. Any commercial use of this tutorial is strictly prohibited.
+## Copyright Notice©
+
+This document is for personal learning and plasma toroid manufacturing only. Without the author's consent, no one may modify, republish, or distribute the content of this document. It is strictly prohibited to use this document for any commercial activities.
 
 ## Disclaimer
-Please read the following important safety warnings and disclaimers before using this tutorial to make a plasma toroid. By using this tutorial, you agree that you have fully understood and accepted the following terms:
+Before using this document to make a plasma toroid, please carefully read the following important safety warnings and disclaimers. Using this document means that you fully understand and agree to the following terms:
+- Dangers of plasma toroids: The glass bottle will generate high temperatures when the plasma toroid is running, and there is a risk of low-temperature burns. It is never recommended to directly touch the running glass bottle with your hands to avoid burns.
+- Magnetic field warning: The plasma toroid will generate a strong magnetic field during operation. For people wearing pacemakers and other medical devices, strong magnetic fields may affect the normal operation of the devices. We recommend that these users stay away from working plasma toroids to avoid potential health risks.
+- High voltage risk: The drive circuit of the plasma toroid will generate high voltage during operation. High voltage poses a danger of electric shock or burns. Please do not touch any components, including the primary coil, while the circuit is working to avoid electric shock or burns.
+- Component temperature: Please note that some components of the circuit may become very hot during operation, which may cause burns. When the device is running, especially after running for a long time, do not touch these components.
+- Electromagnetic interference: The plasma toroid will emit electromagnetic waves around 10MHz when running. This band will not harm the human body, but it may interfere with some electronic devices operating in this band, such as touchpads and card readers. Please keep these devices away from the working drive circuit.
 
-- Plasma toroid hazards: The glass bottle of a running plasma toroid will get very hot, posing risks of low temperature burns. Never touch the hot glass bottle directly during operation to avoid burns.
-
-- Magnetic field warning: Strong magnetic fields are generated when the plasma toroid is running. For people with pacemakers or other medical devices, the strong magnetic field may affect normal operation of the devices. We recommend these users stay away from a running plasma toroid to avoid potential health risks. 
-
-- High voltage risks: The drive circuit of the plasma toroid operates at high voltages. There are risks of electric shocks or burns at high voltages. Do not touch any components including the primary coil when the circuit is powered on to avoid shocks or burns.
-
-- Component temperature: Note that some components in the circuit can get very hot during operation, which may cause scalding. Do not touch these components when the device is running, especially after long periods of operation.
-
-- Electromagnetic interference: The plasma toroid emits electromagnetic waves around 10MHz when running. This frequency is harmless to humans, but may interfere with some electronic devices operating at this frequency band, such as touchpads and card readers. Please keep these devices away from the running drive circuit.  
-
-By using this tutorial, you agree that you understand and accept the risks, and the author is not responsible for any direct or indirect damage resulting from failure to follow the safety guidelines.  
+Using this document means that you understand and agree to bear the risks of use. The author is not responsible for any direct or indirect damages caused by not following the safety guidelines.
 
 DIY with caution, safety first!
 
-## How A Plasma Toroid Works
+## Analysis of the Working Principle of Plasma Toroids
 
-- Glow discharge phenomenon: Under certain conditions, gas glows and discharges in strong electric fields. In this process, the electrons of gas molecules get excited and transition to higher energy levels. Since these electrons at high energy levels are not stable, they will spontaneously fall back to their original low energy levels, emitting photons with energy equal to the energy gap in this process. This phenomenon is called glow discharge, and it is used in neon lights and other devices. The light emission process of a plasma toroid is similar.
+  - Glow discharge phenomenon: Under certain conditions, the gas will undergo glow discharge under the action of a strong electric field. In this process, the electrons of the gas molecules are stimulated and jump to higher energy level orbits. Since these electrons are unstable in the high-energy state, they will spontaneously fall back to the original low-energy orbit while releasing photons corresponding to the energy difference according to the law of conservation of energy. This phenomenon is called glow discharge and is applied to devices such as neon lights. The luminescence process of plasma toroids is similar to this.
 
-- Properties of plasma: Besides the common solid, liquid and gas states, plasma is another state of matter that exists in the universe. Flames contain plasma. When gas gets heated to high temperatures, collisions between molecules will strip electrons from their orbits, forming a plasma that consists of charged particles. This mixture of charged ions and electrons is electrically conductive. 
+  - Properties of plasma: In addition to the common solid, liquid, and gas states, plasma is another state of matter that exists in the universe, and flames are an example that contains plasma. When the gas is affected by high temperature, collisions between molecules will cause the outer electrons to escape their orbits, forming a plasma composed of charged particles. This charged ion mixture has electrical conductivity.
+  - Generation of toroidal electromagnetic field: By passing a high-frequency alternating current through a toroidal coil, it can be derived from Maxwell's equations that the electric field distribution around it is toroidal. We use a self-excited Class E oscillator circuit to generate an alternating current with a frequency of about 10MHz.
 
-- Generation of toroidal electromagnetic field: By passing high-frequency alternating currents through a toroidal coil, a toroidal electric field can be generated around it according to Maxwell's equations. We use a self-oscillating Class E oscillator circuit to generate AC currents around 10MHz.
+  - Generation process of plasma toroid: In a spherical glass bottle filled with low-pressure xenon gas, the xenon gas is ionized under the action of a strong electric field to form a plasma. These conductive xenon gas plasmas form a stable toroidal structure under the influence of an external toroidal electric field. In the plasma, collisions of charged particles produce glow discharge, which emits a pale purple light, making the plasma toroid visible.
 
-- Plasma toroid formation: In a spherical glass bottle filled with low-pressure xenon gas, the xenon gas gets ionized and forms a plasma in the strong electric field. These conductive xenon plasma ions and electrons form a stable toroidal structure under the influence of the applied toroidal electric field. Collisions within the plasma result in glow discharge and emit a pale purple light, making the plasma toroid visible.
+**When using and demonstrating the plasma toroid, please ensure that you understand its working principle and corresponding safety measures to ensure the safety of users.**
 
-**Please make sure you understand the working principles and associated safety measures before using or demonstrating a plasma toroid, to ensure safety.**
 
-## List of Materials Needed
+## Preparation of Materials
 
-<img src=../imgs/all_components.jpg width=80% />
+<img src=../imgs/imgs_24_4_13/compress/Fullcomponents.jpg width=88% /> 
 
-- 80mm glass bottle filled with xenon gas (can be found by searching "plasma toroid" on Taobao, larger glass balls cannot fit in this project's coil stand)
-- 1.2mm enameled wire - for winding the coil  
-- 10uH yellow toroidal inductor
-- PCB board (perfboard or Manhattan style can work as substitutes)
-- Coil stand, including base plate and 5 stand pieces
+
+- 80mm glass bottle filled with xenon gas (available in Taobao store **Diagon Alley Magic Shop**, larger glass balls cannot be installed in the bracket of this project)
+- 1.2mm enameled wire - for winding coils
+- Black ring inductor 10uH  
+- Circuit board PCB (can be made using the files in the hardware folder)
+- Coil support, including base plate and five support pieces
 - Heatsink and fan
 - MOSFET IRFP260N
-- Thermal silicone pad for MOSFET
-- 1k potentiometer
-- 1k resistor x 2
-- 2.7k, 5.6k resistors
-- 30pf ceramic capacitors x 4  
-- 4.7nF SMD capacitors x 2
-- 15V TVS diode P6KE15CA 
-- 9.1V Zener diode
-- 63V 220uf electrolytic input filter capacitors x 2
+- MOSFET heatsink silicone pad
+- Potentiometer 1k  
+- Resistor 1k * 3
+- Resistor 1.8k, 3k
+- SMD capacitor 100pf * 4
+- SMD capacitor 4.7nF * 2  
+- TVS 15V P6KE15CA
+- Voltage regulator diode 9.1V
+- Input filter capacitor Electrolytic capacitor 63V 220uf
 - Toggle switch
-- Green screw terminals - for connecting the coil
-- White fan power socket
-- DC5.5 power jack
-- Screws and nylon spacers
-- Piezo igniter harvested from a lighter (for initial ignition)
-- XL4015 current limiting module (can be skipped if using an adjustable power supply)  
-- 24v power adapter (>=4A, or use an adjustable power supply)
+- Green terminal block - for connecting coil
+- White fan socket
+- DC power interface 
+- Light emitting diode
+- Screws and nylon columns
+- Piezoelectric ceramic taken out from a lighter (for initial ignition)
+- XL4015 current limiting module (this module is not required if you have an adjustable power supply)
+- 24V power adapter (4A or above, or you can use an adjustable power supply)
 
-## Making Steps
-Difficulty: ★★★☆☆   
 
-### Tools Needed
+## Production Tutorial 
+Difficulty ★★★☆☆
+
+### Tools
 - Multimeter
-- Soldering iron  
+- Soldering iron
 - Solder wire
-- Cutter
-- Pliers
-- Hex screwdriver set
+- Utility knife
+- Diagonal pliers
+- Hex screwdriver set 
+- Tweezers (for soldering SMD capacitors)
 
-<img src=../imgs/tools.jpg width=40% />
+<img src=../imgs/tools.jpg width=50% />
 
 ### Steps
+- Prepare the five coil brackets, insert them into the base, heat up the soldering iron, and solder them in place with solder. Try to ensure that the brackets are perpendicular to the base plate. (The five coil bracket pieces need some force to fit in)
 
-- Prepare the 5 coil stand pieces, insert them into the base plate, heat up the soldering iron and solder them to fix in place. Try to keep the stands perpendicular to the base plate as much as possible. (It takes some force to insert the 5 stand pieces.)
+<img src=../imgs/imgs_24_4_13/compress/Coil1.jpg width=45% /> <img src=../imgs/imgs_24_4_13/compress/Coil2.jpg width=45% />
 
-<img src=../imgs/imgs_24_3_1/Coil0.jpg width=45% />
-<img src=../imgs/imgs_24_3_1/Coil1.jpg width=45% />
+- Bend the enameled wire according to the diameter of the coil frame, do not straighten the enameled wire, keeping the enameled wire bent helps with threading, once straightened it cannot be threaded.
 
-- Bend the enameled wire following the diameter of the coil stands, do not straighten the wire, keeping it bent helps threading it through the holes.  
+<img src=../imgs/imgs_24_4_13/compress/Coil3.jpg width=80% />
 
-<img src=../imgs/imgs_24_3_1/Coil5.jpg width=40% />
+- Thread the enameled wire through the small holes from top to bottom, a total of four turns. The holes are relatively small, and threading can be done by pushing and pulling.
 
-- Thread the enameled wire through the holes from top to bottom, 3 turns in total. The holes are small, push and pull to get it through.
+<img src=../imgs/imgs_24_4_13/compress/Coil4.jpg width=32% /> 
+<img src=../imgs/imgs_24_4_13/compress/Coil5.jpg width=32% />
+<img src=../imgs/imgs_24_4_13/compress/Coil6.jpg width=32% />
 
-<img src=../imgs/imgs_24_3_1/Coil2.jpg width=30% />
-<img src=../imgs/imgs_24_3_1/Coil3.jpg width=30% /> 
-<img src=../imgs/imgs_24_3_1/Coil4.jpg width=30% />
 
-- Make a power supply with current limiting protection (skip if you already have an adjustable power supply). Prepare a 24V power adapter and XL4015 current limiting module, cut open the power adapter cable, connect the module in series, turn the voltage adjust potentiometer on the XL4015 module fully clockwise, and turn the current limit potentiometer to 3.5A. Determine this position by: set the multimeter to 10A current range, short the output pins with the probe (this effectively shorts the output), the displayed value is the current limit of the module. Note, using a power supply without current limiting can easily burn the MOSFETs, you can skip this step if you already have an adjustable power supply. In the picture below, the potentiometer on the left adjusts output voltage, and the one on the right adjusts current limit.
-- If using an adjustable power supply, use current limiting mode (CC), set output to 24V, with 3.5A current limit.
+- Make a power supply with current limiting protection (this step can be skipped if you already have an adjustable power supply), prepare a 24V power supply and XL4015 current limiting module, cut the power cord, connect the module in series in the middle, turn the potentiometer for adjusting the output voltage of the XL4015 module clockwise to the end (there will be a clicking sound when turned to the end), and turn the current limiting potentiometer to the 3.5A position. The method to determine the position of the current limiting potentiometer is: set the multimeter to the 10A current range, insert the test leads into the 10A hole, touch the two test leads to the output (at this time, the output is shorted, there may be electric sparks but it's okay), the value displayed on the multimeter is the current limiting value of the current limiting module. Note that using a power supply without current limiting can easily burn out the MOSFET, you must connect the XL4015 module in series before connecting power. If you already have an adjustable power supply, you can skip this step. In the picture below, the potentiometer on the left side of the module is for adjusting the output voltage, and the potentiometer on the right is for adjusting the current limit. Turning clockwise increases the value.
+- If you are using an adjustable power supply, please use the current limiting mode (CC), set the output voltage to 24V, and the current limit to 3.5A.
 
-<img src=../imgs/imgs_24_3_1/XL4015.jpg width=60% />
+<img src=../imgs/imgs_24_3_1/XL4015.jpg width=64% />
 <img src=../imgs/imgs_24_3_1/power_source.jpg width=32% />
 
-- Insert all components into the PCB board according to their markings (do not install the MOSFETs yet), bend the leads to temporarily hold them in place to make soldering easier. Note, the fan power socket should be installed on the back of the PCB. 
-- It is recommended to first solder shorter components, then taller ones. For example, solder resistors, zener diodes, power sockets first, capacitors and switches last.
+- Insert components into the circuit board according to their type (do not install the MOSFET yet). For easy soldering, you can slightly bend the pins to fix them. Note that **the fan connector should be mounted on the back of the PCB, and a light-emitting diode and 1k resistor should also be soldered on the coil bracket PCB**.
+The installation positions of each component are shown in the table below.
 
-> Resistor identification:  
-> - The slightly larger ones are 1k resistors.
-> - Ones with green and blue bands are 5.6k resistors. 
-> - Ones with red and purple bands are 2.7k resistors.
+| Component Name         | Installation Position        |
+|------------------------|------------------------------|
+| 1k resistor * 3        | R1, R4, coil bracket PCB     |
+| Light emitting diode   | coil bracket PCB             |
+| 3k resistor            | R2                           |
+| 1.8k resistor          | R3                           |
+| Voltage regulator diode| D2                           |
+| TVS (black)            | D1                           |
+| Green terminal block   | P1                           |
+| White terminal block   | Q3 (mounted on the back)     |
+| 220uf electrolytic cap | C5                           |
+| 100pf capacitor * 4    | C1, C2, C3, C4               |
+| 4.7nf capacitor * 2    | C6, C7                       |
+| 10uH inductor          | L1                           |
+| IRFP260                | Q1 (do not install this yet) |
+| Switch                 |                              |
+| DC5525 black power jack|                              |
+| B1K single potentiometer |                            |
 
-<img src=../imgs/imgs_24_3_1/Solder0.jpg width=40% />
+- It is recommended to solder the shorter components first, then the taller components, such as soldering the SMD capacitors, resistors, voltage regulators, terminal blocks, etc. first, and finally soldering the electrolytic capacitors and switch. If you have no soldering experience, be sure to search for soldering tutorials on Bilibili to learn first. According to historical statistics, 60% of people who had problems after making it were due to poor contact between components and PCB caused by not mastering the correct soldering method.
+  
+  > Resistor identification 
+  >  - 1k resistor has a brown line
+  >	 - 1.8k resistor has a brown line and a gray line  
+  >	 - 3k resistor has an orange line
+  >	 If you really can't tell them apart, just measure with a multimeter ^_^
 
-- Be very careful of the high temperature of the soldering iron when soldering, **watch out for burns**.
+  > Capacitor identification
+  >  - 4.7nF capacitors are relatively thinner
+  >	 - 220pF/100pF capacitors are relatively thicker
+  >  - For resonant capacitors, you can choose two 220pF or four 100pF
 
-- After all components are soldered, clip the leads. Try to keep the solder joints full and rounded, start clipping from the base when removing leads.
+  > Diode direction identification
+  >  - The black TVS is non-directional
+  >	 - The red voltage regulator diode needs to be directional, the black line on the voltage regulator diode should match the white line position on the PCB silkscreen.
 
-<img src=../imgs/imgs_24_3_1/Solder1.jpg width=40% />
+  > Some friends may not know how to solder SMD components, you can search for SMD component soldering tutorials on Bilibili to learn. Simply put, solder one side first to fix the SMD component, then solder the other side.
+  >【How to quickly solder two-pin SMD components? What are the precautions? Master the skills in a few minutes - Bilibili】 https://b23.tv/XZ3q8Bh
 
-- Screw copper spacers into the 4 holes around the heatsink.
+  > Be sure to pay attention to the direction of the electrolytic capacitor, soldering it backwards may cause intense heating or even explosion. The longer leg of the electrolytic capacitor is the positive electrode, and the side with the stripe mark is the negative electrode. Please refer to the picture below to install the electrolytic capacitor correctly.
 
-<img src=../imgs/imgs_24_3_1/heatsink0.jpg width=40% />
+<img src=../imgs/imgs_24_7_22\assembled_front.jpg width=70% />
 
-- Install the MOSFET. Place the MOSFET with the writing facing **up**, put a silicone pad on the underside and screw it onto the heatsink, with the **leads facing down**. The left, center and right leads are drain, gate and source respectively.
+- When soldering, **be careful of the high temperature of the soldering iron to avoid burns.**
 
-<img src=../imgs/imgs_24_3_1/heatsink1.jpg width=40% /> 
+- After all components are soldered, cut off the pins. Please try to ensure that the solder joints are full and smooth, and start from the root when removing the pins.
 
-- Bend the MOSFET leads and insert into the PCB, **first align the PCB and heatsink holes and screw in place before soldering**, then solder the MOSFET. 
+<img src=../imgs/imgs_24_4_13/assemble_back.jpg width=70% />
 
-<img src=../imgs/imgs_24_3_1/assemble0.jpg width=40% />
+- Screw 6mm copper columns (or 6mm nylon columns) into the screw holes around the heatsink.
 
-- Mount the fan, the connection order of all layers is shown below, fan should blow air towards the heatsink (upwards).
+<img src=../imgs/imgs_24_4_13/compress/heatsink0.jpg width=60% />
 
-<img src=../imgs/imgs_24_3_1/fan0.jpg width=30% />
-<img src=../imgs/imgs_24_3_1/fan1.jpg width=30% />
-<img src=../imgs/imgs_24_3_1/fan2.jpg width=30% />
+- Install the MOSFET. Place the side of the MOSFET with text **facing up**, pad the other side with a silicone pad and fix it on the heatsink with screws, with the pins **facing downward**. At this time, the pins from left to right are G, D, and S poles respectively.
 
-- Use screws to mount the coil stand onto the top, with the two coil wires going into the green screw terminals.
+<img src=../imgs/imgs_24_4_13/compress/heatsink1.jpg width=40% />
 
-<img src=../imgs/imgs_24_3_1/assemble1.jpg width=40% />
+<img src=../imgs/imgs_24_4_13/compress/heatsink2.jpg width=45% />
 
-- Cut the enameled wires to appropriate length to plug into the terminals.   
-- Scrape off the enamel coating at the ends with a knife to expose the copper.
-- **Make sure to completely remove the enamel, otherwise it can cause bad contact and prevent operation!** 
+- Bend the pins and insert them into the PCB. **First align the holes of the PCB and the heatsink to ensure that the four screws can be tightened**, then solder the MOSFET.
 
-<img src=../imgs/imgs_24_3_1/Coil6.jpg width=40% />
+<img src=../imgs/imgs_24_4_13/assemble_new.jpg width=60% />
 
-- Insert the two coil wires into terminals 1 and 3 of the green screw terminals (skip the middle hole), plug the fan power wire into the fan socket at the back of the PCB.
+- Fix the fan. The connection of all layers is shown in the figure below. The fan's airflow is blowing towards the heatsink (blowing upward).
 
-- Double check all connections before powering up o(* ̄▽ ̄*)ブ
+<img src=../imgs/imgs_24_4_13/compress/fan1.jpg width=30% />
 
-- For adjustable power supply, use current limiting mode (CC), set output to 24V, with 3.5A current limit.  
-- Place on the glass bottle with the potentiometer turned fully counter-clockwise.
+<img src=../imgs/imgs_24_4_13/compress/fan2.jpg width=30% />
 
-- Carefully read the safety guidelines before powering on:
-  > Stay away from the coil when circuit is running, the high temperature can cause burns.   
+<img src=../imgs/imgs_24_4_13/compress/fan3.jpg width=30% />
 
-  > The bottle can be rotated, but it also gets hot. Be careful, keep hands at least 1cm away from coil when rotating bottle.
 
-  > Do not hold bottle in one hand and turn potentiometer on circuit with the other, as high voltage static on bottle can damage circuit.
+- Use screws to mount the coil bracket to the top, with the two wires facing the green coil terminal block.
 
-  > Circuit will get hot, do not run for more than 2 minutes continuously.   
+<img src=../imgs/imgs_24_4_13/compress/assemble3.jpg width=40% />
+<img src=../imgs/imgs_24_4_13/compress/Assemble2.jpg width=48% />
 
-  > Turn off switch and disconnect power after use.
 
-- After reading safety guidelines, plug in power adapter and flip power switch, fan should start spinning. 
+- Cut the enameled wire appropriately so that it can be inserted into the terminal block.
+- Use a utility knife to scrape off the enamel at the end of the wire to expose the copper core inside the enameled wire.
+- **Note: Be sure to scrape the enamel at the end of the wire clean, otherwise poor contact may prevent it from working!**
 
-- Slowly turn potentiometer clockwise, circuit should start working around 80% into the rotation range. Use piezo igniter to ignite a ring when it starts working. If unable to ignite, turn potentiometer slightly more clockwise and try again.
+<img src=../imgs/imgs_24_4_13/compress/Assemble1.jpg width=60% />
 
+
+
+- Insert the two wires of the coil into pins 1 and 3 of the green terminal block (the middle hole is not used), and insert the fan power cord into the fan interface on the back of the PCB.
+
+- After confirming that all parts are properly connected again, you can prepare to power on o(*￣▽￣*)ブ
+
+- If you are using an adjustable power supply, please use the current limiting mode (CC), set the output voltage to 24V, and the current limit to 3.5A.
+- Put on the bottle and make sure the potentiometer is at the maximum counterclockwise position.
+
+- Before powering on, please carefully read the safety instructions:
+  >  Stay away from the coil when the circuit is working, as the high temperature of the coil may cause burns.
+
+  >  You can rotate the bottle, but the bottle will also heat up. Be careful and keep your hands away from the coil (at least 1cm away) when rotating the bottle.
+
+  >	 You can turn the potentiometer while the circuit is working, but do not hold the bottle with one hand and touch the potentiometer on the circuit with the other hand, because the high-voltage static electricity on the bottle can damage the circuit.
+
+  >	 The circuit will heat up. It is not recommended to run the circuit for a long time. It is recommended to work continuously for no more than two minutes.
+
+  >	 After use, remember to turn off the switch and disconnect the power supply.
+
+- After ensuring that you have read the safety instructions, plug in the power supply and turn on the switch. At this time, the fan should start spinning.
+
+- Turn the potentiometer clockwise. When it is turned about halfway, the circuit will start working. When the circuit starts working, the LED next to the coil will light up. At this point, use a lighter to point at the bottle and click it to generate the toroid. If the lighter fails to generate the toroid, you can turn the potentiometer clockwise a little more and try again.
+  
 <img src=../imgs/imgs_24_3_1/excite.jpg width=40% />
+
 <img src=../imgs/imgs_24_3_1/ring.jpg width=40% />
 
-- Sometimes the bottle glows white without forming a ring (shown below). Adjust bottle position and ignite again, it should correct after a few attempts.  
-
+- Sometimes, your bottle may glow white without generating a toroid (as shown below). Adjusting the bottle position and re-igniting it a few times usually fixes it.
 <img src=../imgs/imgs_24_3_1/white.jpg width=40% />
 
-- After a ring forms, slightly adjusting the potentiometer changes the shape. If ring disappears, simply ignite again to bring it back.
 
-<img src=../imgs/imgs_24_3_1/ring1.jpg width=40% />
+- After the toroid is generated, slightly turning the potentiometer will cause some changes in the shape of the toroid. If the toroid disappears, re-igniting it will generate it again.
 
-### Circuit Schematic
-Since this project's hardware is still evolving, schematic is for reference only, actual circuit should follow the PCB.
+<img src=../imgs/imgs_24_4_13/Xe2.jpg width=70% />
+
+### Reference Circuit Diagram
+Since the hardware of this project is still being updated, the circuit diagram is for reference only. The actual circuit should be based on the PCB.
 <img src=../imgs/imgs_24_3_1/sch.jpg width=80% />
 
 
 ### FAQ
-For any other questions, join QQ Group 736688139 where all project developers are active and can provide the quickest answers.
+If you have any questions, join the QQ group 736688139. All project developers are in the group, and you can get answers at the fastest speed.
 
-Credits: Tate McAluney
+Acknowledgments: Tate McAluney
