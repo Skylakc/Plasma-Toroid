@@ -180,11 +180,11 @@ The installation positions of each component are shown in the table below.
 
 - Fix the fan. The connection of all layers is shown in the figure below. The fan's airflow is blowing towards the heatsink (blowing upward).
 
-<img src=../imgs/imgs_24_4_13/compress/fan1.jpg width=30% />
+<img src=../imgs/imgs_24_4_13/compress/Fan1.jpg width=30% />
 
-<img src=../imgs/imgs_24_4_13/compress/fan2.jpg width=30% />
+<img src=../imgs/imgs_24_4_13/compress/Fan2.jpg width=30% />
 
-<img src=../imgs/imgs_24_4_13/compress/fan3.jpg width=30% />
+<img src=../imgs/imgs_24_4_13/compress/Fan3.jpg width=30% />
 
 
 - Use screws to mount the coil bracket to the top, with the two wires facing the green coil terminal block.

@@ -171,9 +171,9 @@
 
 - 安装MOSFET。将MOS管有字的一面**向上**，将另一面垫上硅胶垫后用螺丝固定在散热片上，管脚**对着下方**，此时管脚左中右分别为G D S极。
 
-<img src=../imgs/imgs_24_4_13/compress/heatsink1.jpg width=40% />
+<img src=../imgs/imgs_24_4_13/compress/Heatsink1.jpg width=40% />
 
-<img src=../imgs/imgs_24_4_13/compress/heatsink2.jpg width=45% />
+<img src=../imgs/imgs_24_4_13/compress/Heatsink2.jpg width=45% />
 
 - 将管脚弯曲后插入PCB，**先将PCB和散热片孔位对准，确保能拧上四个螺丝**，随后再焊接MOS管
 
@@ -181,11 +181,11 @@
 
 - 固定风扇,所有层的连接关系如下图所示，风扇的风冲着散热片吹（朝上吹）。
 
-<img src=../imgs/imgs_24_4_13/compress/fan1.jpg width=30% />
+<img src=../imgs/imgs_24_4_13/compress/Fan1.jpg width=30% />
 
-<img src=../imgs/imgs_24_4_13/compress/fan2.jpg width=30% />
+<img src=../imgs/imgs_24_4_13/compress/Fan2.jpg width=30% />
 
-<img src=../imgs/imgs_24_4_13/compress/fan3.jpg width=30% />
+<img src=../imgs/imgs_24_4_13/compress/Fan3.jpg width=30% />
 
 
 - 将线圈支架用螺丝安装到顶部，两根线对着绿色的线圈接线座
