@@ -167,7 +167,7 @@
 
 - 将散热片四周螺丝孔内拧入6mm铜柱(或者6mm尼龙柱)。
 
-<img src=../imgs/imgs_24_4_13/compress/heatsink0.jpg width=60% />
+<img src=../imgs/imgs_24_4_13/compress/Heatsink0.jpg width=60% />
 
 - 安装MOSFET。将MOS管有字的一面**向上**，将另一面垫上硅胶垫后用螺丝固定在散热片上，管脚**对着下方**，此时管脚左中右分别为G D S极。
 
@@ -234,7 +234,7 @@
 
 - 出环后，微微拧动电位器环的形态会发生一些变化，如果环消失了，重新点火即可再次出环。
 
-<img src=../imgs/imgs_24_4_13/Xe2.jpg width=70% />
+<img src=../imgs/imgs_24_4_13\Xe2.jpg width=70% />
 
 ### 参考电路图
 由于此项目的硬件还在不断更新，电路图仅供参考，实际以PCB为准
