@@ -156,7 +156,7 @@
   >【两脚的贴片元件如何快速焊接？有哪些注意事项？几分钟就掌握技巧-哔哩哔哩】 https://b23.tv/XZ3q8Bh
 
   > 务必注意电解电容的方向，焊反可能会剧烈发热甚至爆炸。电解电容脚长的一边是正极，有条纹标记的一边是负极。
-<img src=../imgs\imgs_24_6_3\asemble_front.jpg width=70% />
+<img src=../imgs/imgs_24_4_13/assemble_front.jpg width=70% />
 
 - 焊接时，**注意烙铁高温，小心烫伤。**
 
