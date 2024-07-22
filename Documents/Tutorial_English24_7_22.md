@@ -46,7 +46,7 @@ DIY with caution, safety first!
 
 ## Preparation of Materials
 
-<img src=../imgs/imgs_24_4_13/compress/Fullcomponents.jpg width=88% /> 
+<img src=../imgs/imgs_24_4_13/compress/FullComponents.jpg width=88% /> 
 
 
 - 80mm glass bottle filled with xenon gas (available in Taobao store **Diagon Alley Magic Shop**, larger glass balls cannot be installed in the bracket of this project)
@@ -166,13 +166,13 @@ The installation positions of each component are shown in the table below.
 
 - Screw 6mm copper columns (or 6mm nylon columns) into the screw holes around the heatsink.
 
-<img src=../imgs/imgs_24_4_13/compress/heatsink0.jpg width=60% />
+<img src=../imgs/imgs_24_4_13/compress/Heatsink0.jpg width=60% />
 
 - Install the MOSFET. Place the side of the MOSFET with text **facing up**, pad the other side with a silicone pad and fix it on the heatsink with screws, with the pins **facing downward**. At this time, the pins from left to right are G, D, and S poles respectively.
 
-<img src=../imgs/imgs_24_4_13/compress/heatsink1.jpg width=40% />
+<img src=../imgs/imgs_24_4_13/compress/Heatsink1.jpg width=40% />
 
-<img src=../imgs/imgs_24_4_13/compress/heatsink2.jpg width=45% />
+<img src=../imgs/imgs_24_4_13/compress/Heatsink2.jpg width=45% />
 
 - Bend the pins and insert them into the PCB. **First align the holes of the PCB and the heatsink to ensure that the four screws can be tightened**, then solder the MOSFET.
 

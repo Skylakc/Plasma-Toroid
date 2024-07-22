@@ -47,7 +47,7 @@
 
 ## 准备材料
 
-<img src=../imgs/imgs_24_4_13/compress/Fullcomponents.jpg width=88% /> 
+<img src=../imgs/imgs_24_4_13/compress/FullComponents.jpg width=88% /> 
 
 
 - 充有氙气的玻璃瓶80mm(在淘宝**对角巷魔法商店**可找到,更大的玻璃球无法安装到本项目的支架中)
