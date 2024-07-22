@@ -15,7 +15,7 @@
 等离子环开源技术交流QQ群  736688139
 
 
-<img src=../imgs/imgs_24_7_22\cover.jpg width=74% />
+<img src=../imgs/imgs_24_7_22/compress/cover.jpg width=74% />
 
 ## 版权声明©
 
@@ -157,7 +157,7 @@
 
   > 务必注意电解电容的方向，焊反可能会剧烈发热甚至爆炸。电解电容脚长的一边是正极，有条纹标记的一边是负极。请参考下图正确安装电解电容。
 
-<img src=../imgs/imgs_24_7_22\assembled_front.jpg width=70% />
+<img src=../imgs/imgs_24_7_22/compress/assembled_front.jpg width=70% />
 
 - 焊接时，**注意烙铁高温，小心烫伤。**
 
