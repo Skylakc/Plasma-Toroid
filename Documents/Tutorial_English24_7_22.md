@@ -6,13 +6,16 @@ Author: *Diagon Alley Magic Shop*
 
 All components used in this document can be found in the Aliexpress store ***Diagon Alley Magic Shop***. 
 
+[Plasma Toroid Principle](https://www.youtube.com/watch?v=GbMAvn7nRWo)
+
 [Finished product demo video 1](https://www.bilibili.com/video/BV1Lm411z7tf)
 
 [Finished product demo video 2](https://www.bilibili.com/video/BV12f421o7rf) 
 
 [LCEDA Open Source Platform](https://oshwhub.com/skylake/plasmatoroid-drive-circuit)
 
-Plasma toroid open source technology QQ group: 736688139
+Plasma toroid open source technology telegram group:
+https://t.me/+eRFEajIG6_RiMTY1
 
 <img src=../imgs/imgs_24_7_22\cover.jpg width=74% />
 
@@ -151,8 +154,8 @@ The installation positions of each component are shown in the table below.
   >  - The black TVS is non-directional
   >	 - The red voltage regulator diode needs to be directional, the black line on the voltage regulator diode should match the white line position on the PCB silkscreen.
 
-  > Some friends may not know how to solder SMD components, you can search for SMD component soldering tutorials on Bilibili to learn. Simply put, solder one side first to fix the SMD component, then solder the other side.
-  >【How to quickly solder two-pin SMD components? What are the precautions? Master the skills in a few minutes - Bilibili】 https://b23.tv/XZ3q8Bh
+  > Some friends may not know how to solder SMD components, you can search for SMD component soldering tutorials on Youtube to learn. Simply put, solder one side first to fix the SMD component, then solder the other side.
+  >【How To Solder SMD Correctly - Part 1 /SMD Soldering Tutorial - Youtube】 https://www.youtube.com/watch?v=EW9Y8rDm4kE
 
   > Be sure to pay attention to the direction of the electrolytic capacitor, soldering it backwards may cause intense heating or even explosion. The longer leg of the electrolytic capacitor is the positive electrode, and the side with the stripe mark is the negative electrode. Please refer to the picture below to install the electrolytic capacitor correctly.
 
@@ -241,6 +244,8 @@ Since the hardware of this project is still being updated, the circuit diagram i
 
 
 ### FAQ
-If you have any questions, join the QQ group 736688139. All project developers are in the group, and you can get answers at the fastest speed.
+If you have any questions, join the telegram group：
+https://t.me/+eRFEajIG6_RiMTY1.
+All project developers are in the group, and you can get answers at the fastest speed.
 
 Acknowledgments: Tate McAluney

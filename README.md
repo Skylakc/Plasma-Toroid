@@ -1,4 +1,8 @@
 # 等离子环制作说明
+# Plasma Toroid DIY Instructions
+
+If you use English, you can discuss technical issues on Telegram：
+https://t.me/+eRFEajIG6_RiMTY1.
 
 作者 *对角巷魔法商店*
 
@@ -12,6 +16,7 @@
 [调试过程注意事项](./Documents/Notes.md)
 
 等离子环开源技术交流QQ群  736688139
+
 
 <img src=./imgs/cover.jpg width=100% />
 
