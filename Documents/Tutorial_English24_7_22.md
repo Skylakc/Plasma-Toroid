@@ -246,6 +246,7 @@ Since the hardware of this project is still being updated, the circuit diagram i
 ### FAQ
 If you have any questions, join the telegram group：
 https://t.me/+eRFEajIG6_RiMTY1.
-All project developers are in the group, and you can get answers at the fastest speed.
+All project developers are in the group, and you can get answers at the fastest speed.(We try to answer all your questions within 24 hours.)
 
-Acknowledgments: Tate McAluney
+#### Acknowledgments: 
+Tate McAluney
