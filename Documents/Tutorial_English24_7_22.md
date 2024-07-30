@@ -52,7 +52,7 @@ DIY with caution, safety first!
 <img src=../imgs/imgs_24_4_13/compress/FullComponents.jpg width=88% /> 
 
 
-- 80mm glass bottle filled with xenon gas (available in Taobao store **Diagon Alley Magic Shop**, larger glass balls cannot be installed in the bracket of this project)
+- 80mm glass bottle filled with xenon gas (available in Aliexpress store **Diagon Alley Magic Shop**, larger glass balls cannot be installed in the bracket of this project)
 - 1.2mm enameled wire - for winding coils
 - Black ring inductor 10uH  
 - Circuit board PCB (can be made using the files in the hardware folder)
@@ -246,6 +246,7 @@ Since the hardware of this project is still being updated, the circuit diagram i
 ### FAQ
 If you have any questions, join the telegram group：
 https://t.me/+eRFEajIG6_RiMTY1.
+<img src=../imgs\tg.jpg width=30% />
 All project developers are in the group, and you can get answers at the fastest speed.(We try to answer all your questions within 24 hours.)
 
 #### Acknowledgments: 
