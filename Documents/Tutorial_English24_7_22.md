@@ -152,7 +152,7 @@ The installation positions of each component are shown in the table below.
 
   > Diode direction identification
   >  - The black TVS is non-directional
-  >	 - The red voltage regulator diode needs to be directional, the black line on the voltage regulator diode should match the white line position on the PCB silkscreen.
+  >	 - The red voltage regulator diode needs to be directional, the black line on the voltregulator diode should match the white line position on the PCB silkscreen.age 
 
   > Some friends may not know how to solder SMD components, you can search for SMD component soldering tutorials on Youtube to learn. Simply put, solder one side first to fix the SMD component, then solder the other side.
   >【How To Solder SMD Correctly - Part 1 /SMD Soldering Tutorial - Youtube】 https://www.youtube.com/watch?v=EW9Y8rDm4kE
