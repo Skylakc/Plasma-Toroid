@@ -74,7 +74,7 @@ DIY with caution, safety first!
 - DC power interface 
 - Light emitting diode
 - Screws and nylon columns
-- Piezoelectric ceramic taken out from a lighter (for initial ignition)
+- Piezoelectric ceramic removed from a lighter (used for initial ignition; this item is prohibited in air transport, so you need to prepare it yourself, but the circuit can still be made without it)
 - XL4015 current limiting module (this module is not required if you have an adjustable power supply)
 - 24V power adapter (4A or above, or you can use an adjustable power supply)
 
