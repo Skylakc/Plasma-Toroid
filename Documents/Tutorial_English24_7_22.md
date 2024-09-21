@@ -1,6 +1,6 @@
 # Plasma Toroid DIY Instructions
 
-This document was updated on July 22, 2024.
+This document was updated on Sep 14, 2024.
 
 Author: *Diagon Alley Magic Shop*
 
@@ -17,7 +17,7 @@ All components used in this document can be found in the Aliexpress store ***Dia
 Plasma toroid open source technology telegram group:
 https://t.me/+eRFEajIG6_RiMTY1
 
-<img src=../imgs/imgs_24_7_22\cover.jpg width=74% />
+<img src=../imgs/imgs_24_7_22\cover.jpg width=80% />
 
 ## Copyright Notice©
 
@@ -74,7 +74,7 @@ DIY with caution, safety first!
 - DC power interface 
 - Light emitting diode
 - Screws and nylon columns
-- Piezoelectric ceramic taken out from a lighter (for initial ignition)
+- Piezoelectric ceramic removed from a lighter (used for initial ignition; this item is prohibited in air transport, so you may need to prepare it yourself, but the circuit can still be made without it)
 - XL4015 current limiting module (this module is not required if you have an adjustable power supply)
 - 24V power adapter (4A or above, or you can use an adjustable power supply)
 
