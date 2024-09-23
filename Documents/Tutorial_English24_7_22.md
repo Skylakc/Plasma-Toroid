@@ -231,12 +231,13 @@ The installation positions of each component are shown in the table below.
 <img src=../imgs/imgs_24_3_1/ring.jpg width=40% />
 
 - Sometimes, your bottle may glow white without generating a toroid (as shown below). Adjusting the bottle position and re-igniting it a few times usually fixes it.
+
 <img src=../imgs/imgs_24_3_1/white.jpg width=40% />
 
 
 - After the toroid is generated, slightly turning the potentiometer will cause some changes in the shape of the toroid. If the toroid disappears, re-igniting it will generate it again.
 
-<img src=../imgs/imgs_24_4_13/Xe2.jpg width=70% />
+<img src=../imgs/imgs_24_4_13/Xe2.jpg width=40% />
 
 ### Reference Circuit Diagram
 Since the hardware of this project is still being updated, the circuit diagram is for reference only. The actual circuit should be based on the PCB.

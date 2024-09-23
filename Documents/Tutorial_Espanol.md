@@ -234,7 +234,7 @@ Las posiciones de instalación de cada componente se muestran en la tabla a cont
 
 - Después de generar el toroide, girar ligeramente el potenciómetro provocará algunos cambios en la forma del toroide. Si el toroide desaparece, volver a encenderlo lo generará nuevamente.
 
-<img src=../imgs/imgs_24_4_13/Xe2.jpg width=70% />
+<img src=../imgs/imgs_24_4_13/Xe2.jpg width=40% />
 
 ### Diagrama de circuito de referencia
 Dado que el hardware de este proyecto aún se está actualizando, el diagrama del circuito es solo de referencia. El circuito real debe basarse en el PCB.
