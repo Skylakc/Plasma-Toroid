@@ -6,13 +6,13 @@ Author: *Diagon Alley Magic Shop*
 
 All components used in this document can be found in the Aliexpress store ***Diagon Alley Magic Shop***. 
 
+[Aliexpress link](https://www.aliexpress.com/item/1005007423624401.html)
+
 [Plasma Toroid Principle](https://www.youtube.com/watch?v=GbMAvn7nRWo)
 
 [Finished product demo video 1](https://www.bilibili.com/video/BV1Lm411z7tf)
 
 [Finished product demo video 2](https://www.bilibili.com/video/BV12f421o7rf) 
-
-[LCEDA Open Source Platform](https://oshwhub.com/skylake/plasmatoroid-drive-circuit)
 
 Plasma toroid open source technology telegram group:
 https://t.me/+eRFEajIG6_RiMTY1

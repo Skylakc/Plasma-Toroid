@@ -4,6 +4,9 @@
 If you use English, you can discuss technical issues on Telegram：
 https://t.me/+eRFEajIG6_RiMTY1.
 
+You can find all the parts for this project in the AliExpress store:
+https://www.aliexpress.com/item/1005007423624401.html
+
 作者 *对角巷魔法商店*
 
 [成品效果视频1](https://www.bilibili.com/video/BV1Lm411z7tf)
