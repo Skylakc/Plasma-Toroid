@@ -1,25 +1,18 @@
-# 等离子环制作说明
 # Plasma Toroid DIY Instructions
-
-If you use English, you can discuss technical issues on Telegram：
-https://t.me/+eRFEajIG6_RiMTY1.
 
 You can find all the parts for this project in the AliExpress store:
 https://www.aliexpress.com/item/1005007423624401.html
 
-作者 *对角巷魔法商店*
+or Tindie store:
+https://www.tindie.com/stores/simonliu/
 
-[成品效果视频1](https://www.bilibili.com/video/BV1Lm411z7tf)
-[成品效果视频2](https://www.bilibili.com/video/BV12f421o7rf)
+You can discuss technical issues on Telegram：
+https://t.me/+eRFEajIG6_RiMTY1.
 
-[立创开源平台](https://oshwhub.com/skylake/plasmatoroid-drive-circuit)
+Discord:
+https://discord.gg/VDpp2BpjGa
 
-[详细制作教程](./Documents/Tutorial.md)
-
-[调试过程注意事项](./Documents/Notes.md)
-
-等离子环开源技术交流QQ群  736688139
-
+[Demo Video](https://youtu.be/MAfQ2tqjaKY)
 
 <img src=./imgs/cover.jpg width=100% />
 
