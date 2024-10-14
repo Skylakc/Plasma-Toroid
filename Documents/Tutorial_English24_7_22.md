@@ -10,9 +10,9 @@ All components used in this document can be found in the Aliexpress store ***Dia
 
 [Plasma Toroid Principle](https://www.youtube.com/watch?v=GbMAvn7nRWo)
 
-[Finished product demo video 1](https://www.bilibili.com/video/BV1Lm411z7tf)
+[Finished product demo video YouTube](https://youtu.be/MAfQ2tqjaKY)
 
-[Finished product demo video 2](https://www.bilibili.com/video/BV12f421o7rf) 
+[Finished product demo video Bilibili](https://www.bilibili.com/video/BV12f421o7rf) 
 
 Plasma toroid open source technology telegram group:
 https://t.me/+eRFEajIG6_RiMTY1

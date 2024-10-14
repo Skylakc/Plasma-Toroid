@@ -14,7 +14,11 @@ https://discord.gg/VDpp2BpjGa
 
 [Demo Video](https://youtu.be/MAfQ2tqjaKY)
 
-<img src=./imgs/cover.jpg width=100% />
+<img src=./imgs/imgs_24_7_22/cover.jpg width=80% />
+
+If you find this document helpful, you can buy me a coffee. We will continue to improve this document.
+
+<img src=./imgs/buymeacoffee/buymeacoffee.png width=30% />
 
 ## 版权声明©
 
