@@ -127,7 +127,7 @@ The installation positions of each component are shown in the table below.
 | Voltage regulator diode| D2                           |
 | TVS (black)            | D1                           |
 | Green terminal block   | P1                           |
-| White terminal block   | Q3 (mounted on the back)     |
+| White terminal block   | P3 (mounted on the back)     |
 | 220uf electrolytic cap | C5                           |
 | 100pf capacitor * 4    | C1, C2, C3, C4               |
 | 4.7nf capacitor * 2    | C6, C7                       |
