@@ -6,11 +6,11 @@ https://www.aliexpress.com/item/1005007423624401.html
 or Tindie store:
 https://www.tindie.com/stores/simonliu/
 
+For more infomation and cooler gadgets, you can visit our website:
+https://haloplasma.com
+
 You can discuss technical issues on Telegram：
 https://t.me/+eRFEajIG6_RiMTY1.
-
-Discord:
-https://discord.gg/VDpp2BpjGa
 
 [Demo Video](https://youtu.be/MAfQ2tqjaKY)
 

@@ -12,7 +12,7 @@ All components used in this document can be found in the Aliexpress store ***Dia
 
 [Finished product demo video YouTube](https://youtu.be/MAfQ2tqjaKY)
 
-[Finished product demo video Bilibili](https://www.bilibili.com/video/BV12f421o7rf) 
+[Cooler gadgets in our website](https://haloplasma.com) 
 
 Plasma toroid open source technology telegram group:
 https://t.me/+eRFEajIG6_RiMTY1
